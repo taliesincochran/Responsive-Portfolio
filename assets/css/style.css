@@ -1,0 +1,670 @@
+/*global styling*/
+
+@media screen and (min-width: 981px) {
+    li {
+        padding: 5px;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+       /* height: 91px;*/
+    }
+    #myname {
+        width: 253px;
+        height: 91px;   
+        margin-left: 155px; 
+        padding: 28px 18px 25px 18px;
+        position: absolute;
+    }
+    #navigation {
+        position: relative;
+        left: 865px;
+        width:300px;
+        height: 91px;
+        padding: 35px 40px 0px 0px;
+    }
+    .nav1 {
+    padding: 7px 20px 0px 20px;
+    }
+    .nav2 {
+    padding: 7px 20px 0px 20px;
+    }
+    #center {
+        position: relative;
+        left: 155px;
+    }
+    #main {
+        width: 650px;
+        margin: 40px 40px 0px 0px;
+        position: relative;
+        top: 91px;
+    }
+    .portfoliomain {
+        position: relative;
+        top: 131px;
+        width: 650px;
+    }
+    .images {
+        margin-left: 51px;
+    }
+    .listtext {
+        position: relative;
+        bottom: 58px;
+        width: 240px;
+        height: 40px;
+        padding-top:12px;
+    }
+    .contact {
+        position: relative;
+        top: 131px;
+        width: 650px;
+    }
+    .sidebar {
+        width: 267px;
+    }
+    #sidebar {
+        width: 264px;
+        height: 200px;
+        position: absolute;
+        top: 92px;
+        left: 701px;
+    }
+    #sidebar2 {
+        width: 264px;
+        height: 200px;
+        position: absolute;
+        bottom: 254px;
+        left: 701px;
+    }
+    #sidebar3 {
+        width: 264px;
+        height: 200px;
+        position: absolute;
+        top: 132px;
+        left: 701px;
+    }
+    #sidebarheader {
+        width: 200px;
+        margin:24px 24px 0px 32px;
+        text-align: center;     }
+    #mainheader {
+        width:585px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 32px;
+    }
+    #profile {
+        margin: 0px 40px 12px 0px;
+        float: left;
+    }
+    .profiletextbox {
+        padding: 50px;
+    }
+    .space {
+        margin-bottom: 126px;
+    }
+    .space2 {
+        margin-bottom: 160px;
+    }
+    .space3 {
+        margin-bottom: 176px;
+    }
+}
+@media screen and (max-width: 980px) {
+    li {
+        padding: 5px;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+       /* height: 91px;*/
+    }
+    #myname {
+        width: 253px;
+        height: 91px;   
+        margin-left: 90px; 
+        padding: 28px 18px 25px 18px;
+        position: absolute;
+    }
+    #navigation {
+        position: relative;
+        left: 553px;
+        width:300px;
+        height: 91px;
+        padding: 35px 40px 0px 0px;
+    }
+    .nav1 {
+    padding: 7px 20px 0px 20px;
+    }
+    .nav2 {
+    padding: 7px 20px 0px 20px;
+    }
+    #center {
+        position: relative;
+        left: 155px;
+    }
+    #main {
+        width: 420px;
+        margin: 40px 40px 0px -65px;
+        position: relative;
+        top: 91px;
+    }
+    .portfoliomain {
+        position: relative;
+        top: 131px;
+        width: 420px;
+        right: 65px;
+    }
+    .images {
+        width: 346px;
+        margin: 0px 30px 0px 34px  
+    }
+    .listtext {
+        position: relative;
+        bottom: 88px;
+        width: 346px;
+        height: 56px;
+        padding-top:19px;
+        right: 17px;
+    }
+    .contact {
+        position: relative;
+        top: 131px;
+        width: 420px;
+        right: 65px;
+    }
+    .sidebar {
+        left:387px;
+        width: 267px;
+    }
+    #sidebar {
+        height: 200px;
+        position: absolute;
+        top: 92px;
+    }
+    #sidebar2 {
+        height: 200px;
+        position: absolute;
+        bottom: 284px;
+    }
+    #sidebar3 {
+        height: 200px;
+        position: absolute;
+        top: 132px;
+    }
+    #sidebarheader {
+        width: 200px;
+        margin:24px 24px 0px 32px;
+        text-align: center; 
+    }
+    #mainheader {
+        width:360px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+	}
+    #profile {
+        width: 360px;
+        margin: 0px 30px 12px -20px    
+    }
+    .profiletextbox {
+        padding: 0px 50px 30px 50px;
+
+    }
+    .space {
+    margin-bottom: 126px;
+    }
+    .space2 {
+    margin-bottom: 158px;
+    }
+    .space3 {
+    margin-bottom: 165px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    li {
+        padding: 5px 0px 5px 0px;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+
+    }
+    #myname {
+        width: 184px;
+        height: 91px;   
+        margin-left: 20px; 
+        padding: 21px 18px 25px 18px;
+        position: absolute;
+    }
+    #navigation {
+        position: relative;
+        left: 329px;
+        width:300px;
+        height: 91px;
+        padding: 35px 40px 0px 0px;
+    }
+    .nav1 {
+    padding: 7px 20px 0px 20px;
+    }
+    .nav2 {
+    padding: 7px 20px 0px 20px;
+    }
+    #center {
+        position: relative;
+        left: 155px;
+    }
+    #main {
+        width: 540px;
+        margin: 40px 40px 0px -136px;
+        position: relative;
+        top: 91px;
+    }
+    .portfoliomain {
+        position: relative;
+        top: 131px;
+        width: 540px;
+        right: 137px;
+    }
+    .images {
+        width: 200px;
+    }
+    
+    .listtext {
+        position: relative;
+        bottom: 88px;
+        width: 200px;
+        height: 56px;
+        padding-top:19px;
+        right: 17px;
+    } 
+    .contact {
+        position: relative;
+        top: 131px;
+        width: 540px;
+        right: 136px;
+    }
+    .sidebar {
+        left:-136px;
+        width: 540px;
+    }
+    #sidebar {
+        height: 200px;
+        position: relative;
+        top: 108px;
+    }
+    #sidebar2 {
+        height: 200px;
+        position: relative;
+        bottom: -146px;
+    }
+    #sidebar3 {
+        height: 200px;
+        position: relative;
+        top: 150px;
+    }
+    #sidebarheader {
+        width: 500px;
+        margin:24px 24px 0px 32px;
+        text-align: left;
+    }
+    #mainheader {
+        width:480px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    #profile {
+        width: 240px;
+        margin: 0px 40px 12px 0px;
+        float: left;
+    }
+    .profiletextbox {
+        padding: 50px;
+    }
+    .space {
+        margin-bottom: 126px;
+    }
+    .space2 {
+        margin-bottom: 158px;
+    }
+    .space3 {
+        margin-bottom: 165px;
+    }
+}
+@media screen and (max-width: 640px) {
+	header {position: static;
+	}
+    li {
+        padding: 5px 0px 5px 0px;
+    }
+    #top {
+        position: absolute;
+        top: 0px;
+    }
+    #myname {
+        padding: 28px 18px 25px 18px;
+        width: 100%;
+        height: 91px;   
+        margin: 0 auto; 
+        position: relative;
+    }
+    #navigation {
+        position: relative;
+        left: initial;
+        width: 100%;
+        padding: 10px 40px 0px 0px;
+        margin: 0 auto;
+        height: 37px;
+    }
+    .nav1 {
+    padding: 0px 20px 0px 20px;
+    }
+    .nav2 {
+    padding: 0px 20px 0px 20px;
+    }
+    #navlist {
+        margin: 0 auto;
+    }
+    #center {
+        position: relative;
+        left: 155px;
+        top:10px;
+    }
+    #main {
+        width: 330px;
+        margin: 40px 40px 0px -136px;
+        position: relative;
+        top: 156px;
+    }
+    .portfoliomain {
+        position: relative;
+        top: 131px;
+        width: 330px;
+        right: 137px;
+    }
+    .images {
+        width: 200px;
+    }
+    
+    .listtext {
+        position: relative;
+        bottom: 88px;
+        width: 200px;
+        height: 56px;
+        padding-top:19px;
+        right: 17px;
+    } 
+    .contact {
+        position: relative;
+        top: 131px;
+        width: 330px;
+        right: 136px;
+    }
+    .sidebar {
+        left:-136px;
+        width: 330px;
+    }
+    #sidebar {
+        height: 200px;
+        position: relative;
+        top: 174px;
+    }
+    #sidebar2 {
+        height: 200px;
+        position: relative;
+        bottom: -146px;
+    }
+    #sidebar3 {
+        height: 200px;
+        position: relative;
+        top: 150px;
+    }
+    #sidebarheader {
+        width: 270px;
+        margin:24px 24px 0px 32px;
+        text-align: left;
+    }
+    #mainheader {
+        width: 270px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    #profile {
+        width: 290px;
+        margin: 0px 50px 12px 4px    
+    }
+    .profiletextbox {
+        padding: 16px;
+    }
+    .space {
+        margin-bottom: 202px;
+    }
+    .space2 {
+        margin-bottom: 158px;
+    }
+    .space3 {
+        margin-bottom: 165px;
+    }
+}
+
+*{
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../images/background.png");
+	margin: 0 auto;
+	text-decoration: none;
+	color: #cccccc;
+	list-style-type: none;
+}
+li {
+    display: inline-block;
+    color: #777777;
+    text-align: center;  
+}
+a {
+	text-decoration: none;
+	color: #cccccc;
+}
+p {
+	padding-bottom: 5px;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   clear: both;
+}
+.arial {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.georgia {
+	font-family: 'Georgia', 'Times', "Times New Roman", serif;
+	font-weight: bold;
+}
+/*styling the top bar*/
+#top {
+	width: 100%;
+	text-align: center;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 100	
+}
+#myname {
+	background: #4aaaa5;	
+	color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.name {
+	font-size: 24.5px;
+}
+/*stying the navigation bar*/
+#navigation {
+    background-color: #ffffff;
+	color: #777777;
+	z-index: 200;
+
+}
+.nav1 {
+    background-color: #ffffff;
+	float:left;
+	font-size: 14px;
+}
+.nav2 {
+    background-color: #ffffff;
+	border-left: 1px solid #cccccc;
+	float:left;	
+	font-size: 14px;
+}
+#navlist {
+	float:left;
+}	
+/*styling the main area of the about page*/
+#center {
+    margin: 0 auto;
+	
+}
+/*styling the about me area*/
+#main {
+	background-color: #ffffff;
+    color: #777777;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+#mainheader {
+    background-color: #ffffff;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 22px;
+	font-size: 2em;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+}
+#profile {
+	background-color: #ffffff;
+	color: #444444;
+}
+.profiletextbox {
+    text-align: left;
+	font-size: 18px;
+	line-height: 27px
+}
+
+.profiletext {
+	text-align: justify;
+	font-size: 14px;
+}
+/*formatting the contact page*/
+.contact {
+	background: #ffffff;
+	color: #4aaaa5;
+    border-width: 1px;
+	border-color: #cccccc;
+	border-style: solid;
+}
+.contactheader {
+	padding: 26px;
+	width: 580px;
+
+}
+.contacttext {
+	text-align: left;
+	color: #666666;
+	font-size: 14px;
+	padding: 6px 0px 6px 0px;
+}
+.contactbox {
+	padding:26px;
+}
+input {
+	width: 100%;
+}
+textarea {
+	width: 100%;
+    height: 240px;
+    resize: none;
+}
+.submitbutton {
+	width: 100px;
+	height: 40px;
+	background: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	margin-top: 26px;
+	}
+/*styling the main area of the portfolio page*/
+.portfoliomain {
+	background: #ffffff;
+	color: #4aaaa5;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-style: solid;
+}
+.portfolio-list {
+	margin-top:40px;
+}
+
+.listtext {
+	background: #4aaaa5;
+	text-align: center;
+	margin-left: 51px;
+	color: #ffffff;
+}
+
+/*Styling the sidebar.*/
+
+.sidebar {
+	background: #ffffff;
+	color: #4aaaa5;
+	border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+#sidebarheader {
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	font-size: 18px;
+}
+
+#icongroup {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	margin: 32px 0px 32px 31px;	
+	}
+.icon {
+	float: left;
+	margin: 5px;	
+	width: 40px;
+	height: 40px;
+}
+
+/*styling the footer*/
+#copyright { 
+	text-align: center;
+	padding-top: 25px;
+	font-size: 12px;
+	 }
+footer {
+	background-color: #666666;
+	color: #ffffff;
+	width: 100%;
+	height:66px;
+	border-top-width: 8px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+}
