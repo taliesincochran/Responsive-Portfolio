@@ -303,11 +303,14 @@
     }
     #profile {
         width: 326px;
-        margin: 0px 40px 12px 0px;
+        margin: 0px 40px 12px -21px;
         float: left;
     }
     .profiletextbox {
-        padding: 50px;
+        padding: 5px 50px 50px 50px;
+    }
+    .textbox {
+        margin-left:-18px;
     }
     /*styling for main area in portfolio 768px*/
     .portfoliomain {
@@ -440,6 +443,9 @@
     }
     .profiletextbox {
         padding: 16px;
+    }
+    .textbox {
+        margin-left: 11px;
     }
     /*styling for main section in portfolio 640px*/
     .portfoliomain {
