@@ -1,9 +1,20 @@
 /*global styling*/
 
 @media screen and (min-width: 981px) {
+    /*global styling for >981px*/
     li {
         padding: 5px;
     }
+     .space {
+        margin-bottom: 126px;
+    }
+    .space2 {
+        margin-bottom: 160px;
+    }
+    .space3 {
+        margin-bottom: 176px;
+    }
+    /*styling header >981px*/
     #top {
         position: absolute;
         top: 0px;
@@ -29,6 +40,13 @@
     .nav2 {
     padding: 7px 20px 0px 20px;
     }
+    /*styling for header of all pages >981px*/ 
+    #mainheader {
+        width:585px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 32px;
+    }
+    /*styling for main area in index >981px*/
     #center {
         position: relative;
         left: 155px;
@@ -39,6 +57,15 @@
         position: relative;
         top: 91px;
     }
+    #profile {
+        margin: 0px 40px 12px 0px;
+        float: left;
+    }
+    .profiletextbox {
+        padding: 50px;
+    }
+    
+    /*styling for main area of portfolio >981px*/
     .portfoliomain {
         position: relative;
         top: 131px;
@@ -54,11 +81,13 @@
         height: 40px;
         padding-top:12px;
     }
+     /*styling for main area of contact page >981px*/
     .contact {
         position: relative;
         top: 131px;
         width: 650px;
     }
+     /*styling for sidebar of portfolio >981px*/
     .sidebar {
         width: 267px;
     }
@@ -86,33 +115,27 @@
     #sidebarheader {
         width: 200px;
         margin:24px 24px 0px 32px;
-        text-align: center;     }
-    #mainheader {
-        width:585px;
-        padding: 35px 0px 35px 0px;
-        margin-left: 32px;
+        text-align: center;     
     }
-    #profile {
-        margin: 0px 40px 12px 0px;
-        float: left;
-    }
-    .profiletextbox {
-        padding: 50px;
-    }
-    .space {
-        margin-bottom: 126px;
-    }
-    .space2 {
-        margin-bottom: 160px;
-    }
-    .space3 {
-        margin-bottom: 176px;
+    .icon {
+        margin:5px;
     }
 }
 @media screen and (max-width: 980px) {
+    /*global styling 980px*/
     li {
         padding: 5px;
     }
+     .space {
+    margin-bottom: 126px;
+    }
+    .space2 {
+    margin-bottom: 158px;
+    }
+    .space3 {
+    margin-bottom: 165px;
+    }
+    /*styling for header 980px*/
     #top {
         position: absolute;
         top: 0px;
@@ -130,7 +153,7 @@
         left: 553px;
         width:300px;
         height: 91px;
-        padding: 35px 40px 0px 0px;
+        padding: 31px 40px 0px 0px;
     }
     .nav1 {
     padding: 7px 20px 0px 20px;
@@ -138,9 +161,25 @@
     .nav2 {
     padding: 7px 20px 0px 20px;
     }
+    /*styling for main area in all pages 980px*/
+    #mainheader {
+        width:360px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
     #center {
         position: relative;
         left: 155px;
+    }
+    /*styling for main area in index 980px*/
+    #profile {
+        width: 360px;
+        margin: 0px 30px 12px 0px;    
+    }
+    .profiletextbox {
+        padding: 0px 30px 30px 30px;
+
     }
     #main {
         width: 420px;
@@ -148,6 +187,7 @@
         position: relative;
         top: 91px;
     }
+    /*styling for main area in portfolio 980px*/
     .portfoliomain {
         position: relative;
         top: 131px;
@@ -166,12 +206,14 @@
         padding-top:19px;
         right: 17px;
     }
+      /*styling for main area in contact 980px*/
     .contact {
         position: relative;
         top: 131px;
         width: 420px;
         right: 65px;
     }
+      /*styling for sidebar in all pages 980px*/
     .sidebar {
         left:387px;
         width: 267px;
@@ -196,51 +238,40 @@
         margin:24px 24px 0px 32px;
         text-align: center; 
     }
-    #mainheader {
-        width:360px;
-        padding: 35px 0px 35px 0px;
-        margin-left: 30px;
-        margin-bottom: 30px;
-	}
-    #profile {
-        width: 360px;
-        margin: 0px 30px 12px 0px;    
+     .icon {
+        margin:5px;
     }
-    .profiletextbox {
-        padding: 0px 30px 30px 30px;
-
-    }
-    .space {
-    margin-bottom: 126px;
-    }
-    .space2 {
-    margin-bottom: 158px;
-    }
-    .space3 {
-    margin-bottom: 165px;
-    }
-    
 }
 
 @media screen and (max-width: 768px) {
+    /*global styling for 768px*/
     li {
         padding: 5px 0px 5px 0px;
     }
+    .space {
+        margin-bottom: 126px;
+    }
+    .space2 {
+        margin-bottom: 158px;
+    }
+    .space3 {
+        margin-bottom: 200px;
+    }
+     /*styling for header in all pages 768px*/
     #top {
         position: absolute;
         top: 0px;
-
     }
     #myname {
         width: 252px;
-        height: 91px;   
+       /* height: 91px;  */ 
         margin-left: 20px; 
-        padding: 21px 18px 25px 18px;
+        padding: 30px 18px 25px 18px;
         position: absolute;
     }
     #navigation {
         position: relative;
-        left: 329px;
+        left: 473px;
         width:300px;
         height: 91px;
         padding: 35px 40px 0px 0px;
@@ -251,40 +282,63 @@
     .nav2 {
     padding: 7px 20px 0px 20px;
     }
+     /*styling for main area in all pages 768px*/
+    #mainheader {
+        width:668px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
     #center {
         position: relative;
         left: 155px;
     }
+    /*styling for main area index 768px*/
+
     #main {
-        width: 723px;
+        width: 729px;
         margin: 40px 40px 0px -136px;
         position: relative;
         top: 91px;
     }
+    #profile {
+        width: 240px;
+        margin: 0px 40px 12px 0px;
+        float: left;
+    }
+    .profiletextbox {
+        padding: 50px;
+    }
+    /*styling for main area in portfolio 768px*/
     .portfoliomain {
         position: relative;
         top: 131px;
-        width: 723px;
+        width: 729px;
         right: 137px;
     }
-    .images {
-        width: 200px;
+    #portfolio-list li {
+        margin:-10px;
     }
-    
+    .images {
+        width: 314px;
+    }
     .listtext {
         position: relative;
         bottom: 88px;
-        width: 200px;
+        width: 314px;
         height: 56px;
         padding-top:19px;
         right: 17px;
     } 
+    
+    /*styling for main area in contact 768px*/
     .contact {
         position: relative;
         top: 131px;
-        width: 723px;
+        width: 729px;
         right: 136px;
     }
+    /*styling for sidebar in all pages 768px*/
     .sidebar {
         left:-136px;
         width: 723px;
@@ -302,29 +356,29 @@
     #sidebar3 {
         height: 200px;
         position: relative;
-        top: 150px;
+        top: 168px;
     }
     #sidebarheader {
         width: 668px;
         margin:24px 24px 0px 32px;
         text-align: left;
+    }  
+    .icon {
+        margin:11px;
+        position: relative;
+        top: -19px;
+        left:-11px;
     }
-    #mainheader {
-        width:668px;
-        padding: 35px 0px 35px 0px;
-        margin-left: 30px;
-        margin-bottom: 30px;
+}
+@media screen and (max-width: 640px) {
+	/*global styling for 640px*/
+    header {position: static;
+	}
+    li {
+        padding: 5px 0px 5px 0px;
     }
-    #profile {
-        width: 240px;
-        margin: 0px 40px 12px 0px;
-        float: left;
-    }
-    .profiletextbox {
-        padding: 50px;
-    }
-    .space {
-        margin-bottom: 126px;
+     .space {
+        margin-bottom: 202px;
     }
     .space2 {
         margin-bottom: 158px;
@@ -332,13 +386,7 @@
     .space3 {
         margin-bottom: 165px;
     }
-}
-@media screen and (max-width: 640px) {
-	header {position: static;
-	}
-    li {
-        padding: 5px 0px 5px 0px;
-    }
+    /*styling for header 640px*/
     #top {
         position: absolute;
         top: 0px;
@@ -367,17 +415,33 @@
     #navlist {
         margin: 0 auto;
     }
+     /*styling for main section in all pages 640px*/ 
     #center {
         position: relative;
         left: 155px;
         top:10px;
     }
+    #mainheader {
+        width: 543px;
+        padding: 35px 0px 35px 0px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    /*styling for main section in index 640px*/
     #main {
         width: 600px;
         margin: 40px 40px 0px -136px;
         position: relative;
         top: 156px;
     }
+    #profile {
+        width: 540px;
+        margin: 0px 50px 12px 10px    
+    }
+    .profiletextbox {
+        padding: 16px;
+    }
+    /*styling for main section in portfolio 640px*/
     .portfoliomain {
         position: relative;
         top: 131px;
@@ -396,12 +460,14 @@
         padding-top:19px;
         right: 17px;
     } 
+    /*styling for main section in contact 640px*/
     .contact {
         position: relative;
         top: 131px;
         width: 595px;
         right: 136px;
     }
+    /*styling for sidebar in all pages 640px*/
     .sidebar {
         left:-136px;
         width: 595px;
@@ -425,28 +491,6 @@
         width: 543px;
         margin:24px 24px 0px 32px;
         text-align: left;
-    }
-    #mainheader {
-        width: 543px;
-        padding: 35px 0px 35px 0px;
-        margin-left: 30px;
-        margin-bottom: 30px;
-    }
-    #profile {
-        width: 540px;
-        margin: 0px 50px 12px 10px    
-    }
-    .profiletextbox {
-        padding: 16px;
-    }
-    .space {
-        margin-bottom: 202px;
-    }
-    .space2 {
-        margin-bottom: 158px;
-    }
-    .space3 {
-        margin-bottom: 165px;
     }
 }
 
@@ -647,8 +691,7 @@ textarea {
 	margin: 32px 0px 32px 31px;	
 	}
 .icon {
-	float: left;
-	margin: 5px;	
+	float: left;	
 	width: 40px;
 	height: 40px;
 }
