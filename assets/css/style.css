@@ -249,10 +249,10 @@
         padding: 5px 0px 5px 0px;
     }
     .space {
-        margin-bottom: 126px;
+        margin-bottom: 157px;
     }
     .space2 {
-        margin-bottom: 158px;
+        margin-bottom: 196px;
     }
     .space3 {
         margin-bottom: 200px;
@@ -341,22 +341,22 @@
     /*styling for sidebar in all pages 768px*/
     .sidebar {
         left:-136px;
-        width: 723px;
+        width: 729px;
     }
     #sidebar {
         height: 200px;
         position: relative;
-        top: 108px;
+        top: 125px;
     }
     #sidebar2 {
         height: 200px;
         position: relative;
-        bottom: -146px;
+        bottom: -163px;
     }
     #sidebar3 {
         height: 200px;
         position: relative;
-        top: 168px;
+        top: 165px;
     }
     #sidebarheader {
         width: 668px;
@@ -378,13 +378,13 @@
         padding: 5px 0px 5px 0px;
     }
      .space {
-        margin-bottom: 202px;
+        margin-bottom: 187px;
     }
     .space2 {
-        margin-bottom: 158px;
+        margin-bottom: 210px;
     }
     .space3 {
-        margin-bottom: 165px;
+        margin-bottom: 208px;
     }
     /*styling for header 640px*/
     #top {
@@ -432,7 +432,7 @@
         width: 600px;
         margin: 40px 40px 0px -136px;
         position: relative;
-        top: 156px;
+        top: 104px;
     }
     #profile {
         width: 540px;
@@ -444,26 +444,27 @@
     /*styling for main section in portfolio 640px*/
     .portfoliomain {
         position: relative;
-        top: 131px;
+        top: 143px;
         width: 600px;
         right: 137px;
     }
     .images {
-        width: 200px;
+        width: 540px;
+        margin-right: 5px;
     }
     
     .listtext {
         position: relative;
         bottom: 88px;
-        width: 200px;
+        width: 540px;
         height: 56px;
         padding-top:19px;
-        right: 17px;
+        right: 11px;
     } 
     /*styling for main section in contact 640px*/
     .contact {
         position: relative;
-        top: 131px;
+        top: 143px;
         width: 595px;
         right: 136px;
     }
@@ -473,19 +474,16 @@
         width: 595px;
     }
     #sidebar {
-        height: 200px;
         position: relative;
-        top: 174px;
+        top: 140px;
     }
     #sidebar2 {
-        height: 200px;
         position: relative;
-        bottom: -146px;
+        bottom: -173px;
     }
     #sidebar3 {
-        height: 200px;
         position: relative;
-        top: 150px;
+        top: 171px;
     }
     #sidebarheader {
         width: 543px;
@@ -516,7 +514,9 @@ a {
 p {
 	padding-bottom: 5px;
 }
-
+.bold {
+    font-weight: bold;
+}
 .clearfix::after {
    content: " ";
    display: block;
