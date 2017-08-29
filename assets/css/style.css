@@ -58,6 +58,7 @@
         top: 91px;
     }
     #profile {
+        width: 200px;
         margin: 0px 40px 12px 0px;
         float: left;
     }
@@ -165,7 +166,7 @@
     #mainheader {
         width:360px;
         padding: 35px 0px 35px 0px;
-        margin-left: 30px;
+        margin-left: 31px;
         margin-bottom: 30px;
     }
     #center {
@@ -311,6 +312,7 @@
     }
     .textbox {
         margin-left:-18px;
+        margin-right: -19px;
     }
     /*styling for main area in portfolio 768px*/
     .portfoliomain {
@@ -446,6 +448,7 @@
     }
     .textbox {
         margin-left: 11px;
+        margin-right: 17px;
     }
     /*styling for main section in portfolio 640px*/
     .portfoliomain {
