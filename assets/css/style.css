@@ -156,7 +156,7 @@
     }
     .images {
         width: 346px;
-        margin: 0px 30px 0px 34px  
+        margin: 0px 30px 0px 34px; 
     }
     .listtext {
         position: relative;
@@ -204,10 +204,10 @@
 	}
     #profile {
         width: 360px;
-        margin: 0px 30px 12px -20px    
+        margin: 0px 30px 12px 0px;    
     }
     .profiletextbox {
-        padding: 0px 50px 30px 50px;
+        padding: 0px 30px 30px 30px;
 
     }
     .space {
@@ -232,7 +232,7 @@
 
     }
     #myname {
-        width: 184px;
+        width: 252px;
         height: 91px;   
         margin-left: 20px; 
         padding: 21px 18px 25px 18px;
@@ -256,7 +256,7 @@
         left: 155px;
     }
     #main {
-        width: 540px;
+        width: 723px;
         margin: 40px 40px 0px -136px;
         position: relative;
         top: 91px;
@@ -264,7 +264,7 @@
     .portfoliomain {
         position: relative;
         top: 131px;
-        width: 540px;
+        width: 723px;
         right: 137px;
     }
     .images {
@@ -282,12 +282,12 @@
     .contact {
         position: relative;
         top: 131px;
-        width: 540px;
+        width: 723px;
         right: 136px;
     }
     .sidebar {
         left:-136px;
-        width: 540px;
+        width: 723px;
     }
     #sidebar {
         height: 200px;
@@ -305,12 +305,12 @@
         top: 150px;
     }
     #sidebarheader {
-        width: 500px;
+        width: 668px;
         margin:24px 24px 0px 32px;
         text-align: left;
     }
     #mainheader {
-        width:480px;
+        width:668px;
         padding: 35px 0px 35px 0px;
         margin-left: 30px;
         margin-bottom: 30px;
@@ -359,10 +359,10 @@
         height: 37px;
     }
     .nav1 {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 73px 0px 73px;
     }
     .nav2 {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 73px 0px 73px;
     }
     #navlist {
         margin: 0 auto;
@@ -373,7 +373,7 @@
         top:10px;
     }
     #main {
-        width: 330px;
+        width: 600px;
         margin: 40px 40px 0px -136px;
         position: relative;
         top: 156px;
@@ -381,7 +381,7 @@
     .portfoliomain {
         position: relative;
         top: 131px;
-        width: 330px;
+        width: 600px;
         right: 137px;
     }
     .images {
@@ -399,12 +399,12 @@
     .contact {
         position: relative;
         top: 131px;
-        width: 330px;
+        width: 595px;
         right: 136px;
     }
     .sidebar {
         left:-136px;
-        width: 330px;
+        width: 595px;
     }
     #sidebar {
         height: 200px;
@@ -422,19 +422,19 @@
         top: 150px;
     }
     #sidebarheader {
-        width: 270px;
+        width: 543px;
         margin:24px 24px 0px 32px;
         text-align: left;
     }
     #mainheader {
-        width: 270px;
+        width: 543px;
         padding: 35px 0px 35px 0px;
         margin-left: 30px;
         margin-bottom: 30px;
     }
     #profile {
-        width: 290px;
-        margin: 0px 50px 12px 4px    
+        width: 540px;
+        margin: 0px 50px 12px 10px    
     }
     .profiletextbox {
         padding: 16px;
